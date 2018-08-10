@@ -1,0 +1,30 @@
+img {
+  margin: 1.66%;
+  width: 30%;
+  float: left;
+}
+
+.name {
+  letter-spacing: 3px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+nav {
+  text-align: center;
+  text-transform: lowercase;
+  color: black;
+  font-size: 12.5px;
+  word-spacing: 5px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+

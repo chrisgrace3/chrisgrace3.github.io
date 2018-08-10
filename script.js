@@ -1,0 +1,1 @@
+console.log("Hey, thanks for checking to see if I logged anything to the console.");
