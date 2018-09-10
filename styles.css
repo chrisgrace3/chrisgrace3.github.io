@@ -14,22 +14,48 @@ nav li {
   padding-left: 50px;
 }
 
+.description {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 20px;
+}
+
+.img-link:link,
+.img-link:visited {
+  border-bottom: 0px;
+  color: #000;
+}
+
+
 nav {
-  position: fixed;
   top: 0;
   left: 0;
 }
 
-nav a {
-  color: black;
+nav a:link,
+nav a:visited {
+  text-decoration: none;
+  color: #555;
+  padding-bottom: 1px;
+  border-bottom: 1px solid #555;
 }
+
+nav a:hover,
+nav a:active {
+  color: #e67e22;
+  border-bottom: 1px solid #e67e22;
+  transition: border-bottom 0.2s, color 0.2s;
+
+}
+
+
 
 .project-link:link,
 .project-link:visited {
     text-decoration: none;
     color: #e67e22;
     padding-bottom: 1px;
-    border-bottom: 1px solid #e67e22;
 }
 
 .project-link:hover,
