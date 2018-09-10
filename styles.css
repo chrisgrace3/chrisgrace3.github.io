@@ -159,3 +159,14 @@ h2 {
         width: 100%;
     }
 }
+
+section .logo {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo img {
+  display: block;
+  margin: auto;
+}
