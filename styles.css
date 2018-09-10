@@ -5,26 +5,7 @@
 body {
     background-color: #f1f1f1;
     padding: 20px;
-    font-family: Arial, sans-serif;
-}
-
-.main-logo {
-  height: auto;
-  width: 300px;
-}
-
-h2 {
-  font-family: 'Amatic SC', cursive;
-  font-size: 2.5rem;
-}
-
-.header-logo {
-  width: 400px;
-  margin: 0 auto;
-}
-
-.logo {
-  height: 400px;
+    font-family: Arial;
 }
 
 /* Center website */
@@ -72,7 +53,6 @@ h1 {
     .column {
         width: 50%;
     }
-
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
