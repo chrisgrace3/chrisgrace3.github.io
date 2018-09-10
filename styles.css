@@ -8,16 +8,32 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-a:link,
-a:visited {
+nav li {
+  display: inline-block;
+  color: black;
+  padding-left: 50px;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+nav a {
+  color: black;
+}
+
+.project-link:link,
+.project-link:visited {
     text-decoration: none;
     color: #e67e22;
     padding-bottom: 1px;
     border-bottom: 1px solid #e67e22;
 }
 
-a:hover,
-a:active {
+.project-link:hover,
+.project-link:active {
     color: #555;
     border-bottom: 1px solid transparent;
     transition: border-bottom 0.2s, color 0.2s;
@@ -27,12 +43,10 @@ a:active {
 .navbar a:visited {
     text-decoration: none;
     border-bottom: 0;
-    color: #e67e22;
 }
 
 .navbar a:hover,
 .navbar a:active {
-  color: #e67e22;
 }
 
 .navbar {
@@ -52,11 +66,20 @@ hr {
     margin: auto;
 }
 
-h1 {
-    font-size: 6rem;
+h1, h2 {
     word-break: break-all;
     font-family: 'Amatic SC', cursive;
     text-align: center;
+}
+
+h1 {
+  font-size: 6rem;
+  margin-bottom: 5px;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 2.5rem;
 }
 
 .row {
