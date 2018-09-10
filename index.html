@@ -3,57 +3,71 @@
   <head>
     <meta charset="utf-8">
     <title>CHRISTOPHER GRACE</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
   </head>
   <body>
+
+    <!-- nav -->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <ul class="nav navbar-nav">
+          <li><a target="_blank" href="mailto:christopher.grace3@gmail.com">email</a></li>
+          <li><a target="_blank" href="https://www.linkedin.com/in/chrisgrace/">linkedin</a></li>
+          <li><a target="_blank" href="https://github.com/chrisgrace3">github</a></li>
+          <li><a target="_blank" href="https://twitter.com/chrisgrace2000">twitter</a></li>
+          <li><a target="_blank" href="https://soundcloud.com/user-914169337">music</a></li>
+        </ul>
+      </div>
+    </nav>
+
+
+
+
     <!-- MAIN (Center website) -->
+
 <div class="main">
 
-<h1>CHRISTOPHER GRACE</h1>
+<h1 class="title">CHRISTOPHER GRACE</h1>
 <hr>
 
-<h2>PORTFOLIO</h2>
-<p>Resize the browser window to see the responsive effect.</p>
+<section class="section-main">
+  <h2 class="job-title">Web Designer/Developer</h2>
+  <p>Based in Las Vegas, but able to commute wherever needed! Front-end expert with a love to learn new technologies.</p>
 
-<!-- Portfolio Gallery Grid -->
-<div class="row">
-  <div class="column">
-    <div class="content">
-      <img src="mountains.jpg" alt="Mountains" style="width:100%">
-      <h3>My Work</h3>
-      <p>Lorem ipsum..</p>
+  <!-- Portfolio Gallery Grid -->
+  <div class="row">
+    <div class="column">
+      <div class="content">
+        <img src="images/omnifood.png" alt="omnifood" style="width:100%">
+        <a target="_blank" href="omnifood/index.html"><h3>Omnifood</h3></a>
+        <p>Mockup for an alternative food delivery service.</p>
+      </div>
+    </div>
+    <div class="column">
+      <div class="content">
+        <img src="images/colorGame.png" alt="color game" style="width:100%">
+        <a class="color-game-link" target="_blank" href="colorGame/colorGame.html">
+        <h3>Color Game</h3>
+        </a>
+        <p>Fun color game made using jQuery</p>
+      </div>
+    </div>
+    <div class="column">
+      <div class="content">
+        <img src="images/yelpCamp.png" alt="Nature" style="width:100%">
+        <a target="_blank" href="https://limitless-spire-51100.herokuapp.com/">
+        <h3>YelpCamp</h3>
+        </a>
+        <p>Mock yelp site created while taking a full stack developer bootcamp.</p>
+      </div>
     </div>
   </div>
-  <div class="column">
-    <div class="content">
-      <img src="lights.jpg" alt="Lights" style="width:100%">
-      <h3>My Work</h3>
-      <p>Lorem ipsum..</p>
-    </div>
-  </div>
-  <div class="column">
-    <div class="content">
-      <img src="nature.jpg" alt="Nature" style="width:100%">
-      <h3>My Work</h3>
-      <p>Lorem ipsum..</p>
-    </div>
-  </div>
-  <div class="column">
-    <div class="content">
-      <img src="mountains.jpg" alt="Mountains" style="width:100%">
-      <h3>My Work</h3>
-      <p>Lorem ipsum..</p>
-    </div>
-  </div>
-</div>
+</section>
 
-<div class="content">
-  <img src="bear.jpg" alt="Bear" style="width:100%">
-  <h3>Some Other Work</h3>
-  <p>Lorem ipsum..</p>
-</div>
-
-<!-- END MAIN -->
-</div>
   </body>
 </html>
